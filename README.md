@@ -4,6 +4,7 @@
 
 - [x] Make it deploy
 - [x] Scaffolding basic UI with mock Data
+- [x] Tidy up build errors
 - [ ] Actually setup DataBase
 - [ ] Attach DB to UI
 - [ ] Add Auth
