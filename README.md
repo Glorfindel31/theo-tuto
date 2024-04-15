@@ -1,8 +1,9 @@
 # t3 Gallery tuto
 
 ## TODO
-- [ ] Make it deploy
-- [ ] Scaffolding basic UI with mock Data
+
+- [x] Make it deploy
+- [x] Scaffolding basic UI with mock Data
 - [ ] Actually setup DataBase
 - [ ] Attach DB to UI
 - [ ] Add Auth
