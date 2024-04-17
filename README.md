@@ -8,8 +8,9 @@
 - [x] Actually setup DataBase
 - [x] Attach DB to UI
 - [x] Add Auth
-- [ ] Add image upload
+- [x] Add image upload
 - [ ] "taint" (server-only)
+- [ ] Use next image
 - [ ] Error management (w/ Sentry)
 - [ ] Routing /image page (parallel route)
 - [ ] Delete action button (w/ server action)
