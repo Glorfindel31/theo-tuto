@@ -1,7 +1,11 @@
-export default function ImageModal({
+import FullPageImageView from "~/app/components/full-image-page";
+
+export default function ImagePage({
   params: { id: imgId },
 }: {
   params: { id: string };
 }) {
-  return <div>{imgId}</div>;
+  const idAsNumber = Number(imgId);
+  if (Number.isNaN(idAsNumber)) throw new Error("Invalid image ID");
+  return <FullPageImageView id={idAsNumber} />;
 }
